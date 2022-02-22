@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img class="watch" src="http://assets.stickpng.com/images/580b585b2edbce24c47b27bd.png" alt="">
+    </div>
+    <div>
+        <h3 class="head1">Stop Watch</h3>
+    </div>
+    <div class="maindiv">
+        <span id="mints">00</span>
+        <span class="colon">:</span>
+        <span id="secs">00</span>
+        <span class="colon">:</span>
+        <span id="msecs">00</span>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <button class="btn" onclick="start()" id="start" >Start</button>
+        <button class="btn" onclick="stop()" id="stop" >Stop</button>
+        <button class="btn" onclick="reset()" id="reset" >Reset</button>
+        
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
